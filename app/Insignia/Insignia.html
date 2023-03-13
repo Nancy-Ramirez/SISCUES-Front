@@ -38,54 +38,78 @@
             >
               <!--inicio-->
               <li class="nav-item">
-                <a href="#" class="nav-link align-middle px-0 text-reset">
+                <a href="#" class="nav-link px-0 text-reset">
                   <i class=""></i>
-                  <span class="ms-1 d-none d-sm-inline">Inicio</span>
-                </a>
+                  <span class="material-symbols-rounded">
+                    home 
+                    </span>
               </li>
               <!--Cuestionarios-->
               <li>
-                <a href="/app/Cuestionario/Cuestionario.html" class="nav-link px-0 align-middle text-reset">
+                <a
+                  href="/app/Cuestionario/Cuestionario.html"
+                  class="nav-link px-0 align-middle text-reset"
+                >
                   <i class="fs-4 bi-people"></i>
                   <span class="ms-1 d-none d-sm-inline">Cuestionarios</span>
                 </a>
-              </li> 
+              </li>
               <!--Materias-->
               <li>
-                <a href="/app/Materia/Materia.html" class="nav-link px-0 align-middle text-reset">
+                <a
+                  href="/app/Materia/Materia.html"
+                  class="nav-link px-0 align-middle text-reset"
+                >
                   <i class="fs-4 bi-table"></i>
                   <span class="ms-1 d-none d-sm-inline">Materias</span></a
                 >
               </li>
-               <!--Instituciones-->
-               <li>
-                <a href="/app/Institucion/Institucion.html" class="nav-link px-0 align-middle text-reset">
-                    <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Instituciones</span> </a>
-            </li>
-            <!--Insignias-->
-            <li class="nav-item">
-                <a href="/app/Insignia/Insignia.html" class="nav-link align-middle px-0 text-reset">
+              <!--Instituciones-->
+              <li>
+                <a
+                  href="/app/Institucion/Institucion.html"
+                  class="nav-link px-0 align-middle text-reset"
+                >
+                  <i class="fs-4 bi-people"></i>
+                  <span class="ms-1 d-none d-sm-inline">Instituciones</span>
+                </a>
+              </li>
+              <!--Insignias-->
+              <li class="nav-item">
+                <a
+                  href="/app/Insignia/Insignia.html"
+                  class="nav-link align-middle px-0 text-reset"
+                >
                   <i class=""></i>
                   <span class="ms-1 d-none d-sm-inline">Insignias</span>
                 </a>
               </li>
               <!--Estudiantes-->
               <li>
-                <a href="/app/Estudiante/Estudiante.html" class="nav-link px-0 align-middle text-reset">
+                <a
+                  href="/app/Estudiante/Estudiante.html"
+                  class="nav-link px-0 align-middle text-reset"
+                >
                   <i class="fs-4 bi-people"></i>
                   <span class="ms-1 d-none d-sm-inline">Estudiantes</span>
                 </a>
               </li>
               <!--Usuarios-->
               <li>
-                <a href="/app/Usuario/Usuario.html" class="nav-link px-0 align-middle text-reset">
+                <a
+                  href="/app/Usuario/Usuario.html"
+                  class="nav-link px-0 align-middle text-reset"
+                >
                   <i class="fs-4 bi-people"></i>
                   <span class="ms-1 d-none d-sm-inline">Usuarios</span>
                 </a>
               </li>
               <!--Reportes-->
               <li>
-                <a href="/app/Reportes/Reportes.html" class="nav-link px-0 align-middle text-reset">
+                <a
+                  href="/app/Reportes/Reportes.html"
+                  class="nav-link px-0 align-middle text-reset"
+                >
                   <i class="fs-4 bi-people"></i>
                   <span class="ms-1 d-none d-sm-inline">Reportes</span>
                 </a>
@@ -148,7 +172,7 @@
                     class="form-control"
                     aria-label="Default"
                     aria-describedby="inputGroup-sizing-default"
-                    placeholder="Nombre del cuestionario o materia"
+                    placeholder="Nombre de la insignia"
                   />
                   <div class="input-group-prepend">
                     <button
@@ -174,17 +198,17 @@
                       <tr class="text-center">
                         <th>#</th>
                         <th>Nombre</th>
-                        <th>Materia</th>
-                        <th>Grado</th>
+                        <th>Puntaje mínimo</th>
+                        <th>Puntaje máximo</th>
                         <th>Opciones</th>
                       </tr>
                     </thead>
                     <tbody class="text-center">
                       <tr>
-                        <td>1</td>
-                        <td>Reacciones hidrógeno</td>
-                        <td>Química</td>
-                        <td>Octavo</td>
+                        <th>1</th>
+                        <th>Sin clasificación</th>
+                        <td>0</td>
+                        <td>120</td>
                         <td>
                           <div class="example-button-row">
                             <div class="example-flex-container">
@@ -211,10 +235,10 @@
                         </td>
                       </tr>
                       <tr>
-                        <td>2</td>
-                        <td>Cuerpo humano</td>
-                        <td>Biología</td>
-                        <td>Septimo</td>
+                        <th>2</th>
+                        <th>Bronce 3</th>
+                        <td>120</td>
+                        <td>500</td>
                         <td>
                           <div class="example-button-row">
                             <div class="example-flex-container">
@@ -250,7 +274,7 @@
                         role="status"
                         aria-live="polite"
                       >
-                      Mostrando 5 de 20 registros
+                        Mostrando 5 de 20 registros
                       </div>
                     </div>
                     <ul class="pagination">
