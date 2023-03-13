@@ -25,20 +25,43 @@
       <!--Tabla-->
       <div class="card shadow mb-4">
         <div class="card-header py-3">
-          <h6 class="m-0 font-weight.bold text-primary">
-            Cuestionarios registrados
-          </h6>
+          <div class="d-flex justify-content-between">
+            <h6 class="m-0 font-weight.bold text-primary"></h6>
+            <button type="button" class="btn btn-outline-success rounded-3 m-2">
+              <a href="crearCuestionario.html" ><span class="material-symbols-rounded justify-content-center"
+                >add</span
+              ></a>
+            </button>
+          </div>
+          <div class="input-group mb-3">
+            <input
+              type="text"
+              class="form-control"
+              aria-label="Default"
+              aria-describedby="inputGroup-sizing-default"
+              placeholder="Nombre del cuestionario o materia"
+            />
+            <div class="input-group-prepend">
+              <button
+                type="button"
+                class="btn btn-outline-warning rounded-3"
+              >
+                <span class="material-symbols-rounded"> edit_square </span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="card-body">
+        <div class="card-header py-3">
           <div class="table-responsive">
             <table
-              class="table table-bordered"
+              class="table table-hover"
               id="dataTable"
               width="100%"
               cellspacing=""
             >
-              <thead>
+              <thead class="thead-dark">
                 <tr class="text-center">
+                  <th>#</th>
                   <th>Nombre</th>
                   <th>Materia</th>
                   <th>Grado</th>
@@ -47,16 +70,47 @@
               </thead>
               <tbody class="text-center">
                 <tr>
-                  <td>Nancy</td>
-                  <td>sociales</td>
-                  <td>Septimo</td>
+                  <td>1</td>
+                  <td>Reacciones hidrógeno</td>
+                  <td>Química</td>
+                  <td>Octavo</td>
                   <td>
-                    <div class="example-button-row ">
+                    <div class="example-button-row">
                       <div class="example-flex-container">
                         <div class="d-flex justify-content-center">
                           <button
                             type="button"
-                            class="btn btn-outline-success rounded-3 m-2"
+                            class="btn btn-outline-info rounded-3 m-2"
+                          >
+                            <span class="material-symbols-rounded">
+                              edit_square
+                            </span>
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-danger rounded-3 m-2"
+                          >
+                            <span class="material-symbols-rounded">
+                              delete_forever
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Cuerpo humano</td>
+                  <td>Biología</td>
+                  <td>Septimo</td>
+                  <td>
+                    <div class="example-button-row">
+                      <div class="example-flex-container">
+                        <div class="d-flex justify-content-center">
+                          <button
+                            type="button"
+                            class="btn btn-outline-info rounded-3 m-2"
                           >
                             <span class="material-symbols-rounded">
                               edit_square
