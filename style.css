@@ -34,7 +34,6 @@ body {
   line-height: 1.5;
   color: #858796;
   text-align: left;
-  background-color: #fff;
 }
 
 hr {
@@ -156,6 +155,46 @@ td{
   align-items: center;
   justify-content: space-between;
 }
+
+/*!-------Estudiante-----------*/
+/*Buscar NIE*/
+
+.buscarNIE{
+  background-image: url(/images/sun-tornado.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+
+}
+.bNIE{
+  margin-top: 150px;
+}
+
+.bNIE h4{
+  text-align: center;
+  padding: 10px;
+}
+.bNIE .card{
+  background-color: rgb(67, 242, 172, 0.4) ;
+}
+.bNIE .btnBuscarNIE{
+  background-color: aliceblue;
+}
+
+.bNIE .card-body{
+  justify-content: center;
+}
+
+/*CrearEstudiante*/
+.crearEstudiante{
+  background-image: url(/images/confetti-doodles\ \(1\).svg);
+}
+
+.crearEstudiante h4{
+  font-size: 20px;
+  text-align: center;
+}
+
+
 
 /*!-------------Responsive---------------*/
 @media (max-width: 575.98px) {
