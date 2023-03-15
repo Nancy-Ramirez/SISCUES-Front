@@ -110,7 +110,6 @@ p {
   margin-left: -0.75rem;
 }
 
-
 /*!--------------MENÚ-------------------------------!*/
 .sidebar a {
   padding: 6px 8px 6px 16px;
@@ -130,16 +129,11 @@ h1 {
   font-family: monospace;
 }
 
-
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
-td{
+td {
   font-size: 18px;
 }
 
@@ -159,42 +153,44 @@ td{
 /*!-------Estudiante-----------*/
 /*Buscar NIE*/
 
-.buscarNIE{
+.buscarNIE {
   background-image: url(/images/sun-tornado.png);
   background-size: auto;
   background-repeat: no-repeat;
-
 }
-.bNIE{
+.bNIE {
   margin-top: 150px;
 }
 
-.bNIE h4{
+.bNIE h4 {
   text-align: center;
   padding: 10px;
 }
-.bNIE .card{
-  background-color: rgb(67, 242, 172, 0.4) ;
+.bNIE .card {
+  background-color: rgb(67, 242, 172, 0.4);
 }
-.bNIE .btnBuscarNIE{
+.bNIE .btnBuscarNIE {
   background-color: aliceblue;
 }
 
-.bNIE .card-body{
+.bNIE .card-body {
   justify-content: center;
 }
 
 /*CrearEstudiante*/
-.crearEstudiante{
-  background-image: url(/images/confetti-doodles\ \(1\).svg);
+.crearEstudiante {
+  background-image: url(/images/confetti-doodless.svg);
 }
 
-.crearEstudiante h4{
+.crearEstudiante h4 {
   font-size: 20px;
   text-align: center;
 }
 
-
+.crearEstudiante .card {
+  background-color: rgba(142,191,36, 0.3) ;
+  border-style:dashed;
+}
 
 /*!-------------Responsive---------------*/
 @media (max-width: 575.98px) {
@@ -248,5 +244,3 @@ td{
     flex-wrap: nowrap;
   }
 }
-
-

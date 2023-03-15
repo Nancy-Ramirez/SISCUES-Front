@@ -14,57 +14,177 @@
     />
   </head>
   <body class="crearEstudiante d-flex justify-content-center">
-    <div class="card" style="width: 40rem">
+    <div class="card" style="width: 70rem">
       <div class="card-title">
         <h4>Ingresa tus datos</h4>
       </div>
-      <div class="card-body">
+      <div class="card-body d-flex justify-content-center">
+        <div class="form-row">
+          <!--NIE-->
+          <div class="form-group row my-3">
+            <label for="nieEstudiante" class="col-sm-3 col-form-label"
+              >NIE</label
+            >
+            <div class="col-sm-8">
+              <input
+                type="text"
+                class="form-control"
+                id="nieEstudiante"
+                placeholder="3154287412"
+                disabled
+              />
+            </div>
+          </div>
+
+          <!--Foto-->
+          <div class="form-group row my-3">
+            <label for="nombreEstudiante" class="col-sm-3 col-form-label"
+              >Foto</label
+            >
+            <div class="col-sm-8">
+              <input type="file" class="form-control" id="nombreEstudiante" />
+            </div>
+          </div>
+
+          <!--Nombres-->
+          <div class="form-group row my-3">
+            <label for="nombreEstudiante" class="col-sm-3 col-form-label"
+              >Nombres</label
+            >
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="nombreEstudiante" />
+            </div>
+          </div>
+
+          <!--Apellidos-->
+          <div class="form-group row my-3">
+            <label for="apellidoEstudiante" class="col-sm-3 col-form-label"
+              >Apellidos</label
+            >
+            <div class="col-sm-8">
+              <input
+                type="text"
+                class="form-control"
+                id="apellidosEstudiante"
+              />
+            </div>
+          </div>
+
+          <!--Fecha de nacimiento-->
+          <div class="form-group row my-3">
+            <label for="nacimientoEstudiante" class="col-sm-3 col-form-label"
+              >Fecha nac.</label
+            >
+            <div class="col-sm-8">
+              <input
+                type="date"
+                class="form-control"
+                id="nacimientoEstudiante"
+              />
+            </div>
+          </div>
+
+          <!--Email-->
+          <div class="form-group row my-3">
+            <label for="emailEstudiante" class="col-sm-3 col-form-label"
+              >E-mail</label
+            >
+            <div class="col-sm-8">
+              <input type="email" class="form-control" id="emailEstudiante" />
+            </div>
+          </div>
+          <!--Telefono-->
+          <div class="form-group row my-3">
+            <label for="telefonoEstudiante" class="col-sm-3 col-form-label"
+              >Teléfono</label
+            >
+            <div class="col-sm-8">
+              <input
+                type="number"
+                class="form-control"
+                id="telefonoEstudiante"
+              />
+            </div>
+          </div>
+        </div>
         <div class="form-row">
           
-          <form> 
-            <!--NIE-->
-            <div class="form-group row my-3">
-              <label for="nieEstudiante" class="col-sm-2 col-form-label"
-                >NIE</label
-              >
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="nieEstudiante" placeholder="3154287412" disabled />
-              </div>
-            </div>
 
-            <!--Nombres-->
-            <div class="form-group row my-3">
-              <label for="nombreEstudiante" class="col-sm-2 col-form-label"
-                >Nombres</label
-              >
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="nombreEstudiante" />
-              </div>
+          <!--Género-->
+          <div class="form-group row my-3">
+            <label for="generoEstudiante" class="col-sm-4 col-form-label"
+              >Género</label
+            >
+            <div class="col-sm-10">
+              <select id="generoEstudiante" class="form-control">
+                <option selected>Seleccione</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+              </select>
             </div>
+          </div>
 
-            <!--Apellidos-->
-            <div class="form-group row my-3">
-              <label for="apellidoEstudiante" class="col-sm-2 col-form-label"
-                >Apellidos</label
-              >
-              <div class="col-sm-10">
-                <input type="text" class="form-control" id="apellidosEstudiante" />
-              </div>
+          <!--Institucion-->
+          <div class="form-group row my-3">
+            <label for="institucionEstudiante" class="col-sm-4 col-form-label"
+              >Institución</label
+            >
+            <div class="col-sm-10">
+              <select id="institucionEstudiante" class="form-control">
+                <option selected>Seleccione</option>
+                <option value="opcion1">Opcion1</option>
+                <option value="opcion2">Opcion2</option>
+              </select>
             </div>
+          </div>
 
-            <!--Fecha de nacimiento-->
-            <div class="form-group row my-3">
-              <label for="nacimientoEstudiante" class="col-sm-2 col-form-label"
-                >Fecha nac.</label
-              >
-              <div class="col-sm-10">
-                <input type="date" class="form-control" id="nacimientoEstudiante" />
-              </div>
+          <!--Departamento-->
+          <div class="form-group row my-3">
+            <label for="departamentoEstudiante" class="col-sm-5 col-form-label"
+              >Departamento</label
+            >
+            <div class="col-sm-10">
+              <select id="departamentoEstudiante" class="form-control">
+                <option selected>Seleccione</option>
+                <option value="opcion1">Opcion1</option>
+                <option value="opcion2">Opcion2</option>
+              </select>
             </div>
+          </div>
 
-            
-           
-          </form>
+          <!--Municipio-->
+          <div class="form-group row my-3">
+            <label for="municipioEstudiante" class="col-sm-4 col-form-label"
+              >Municipio</label
+            >
+            <div class="col-sm-10">
+              <select id="municipioEstudiante" class="form-control">
+                <option selected>Seleccione</option>
+                <option value="opcion1">Opcion1</option>
+                <option value="opcion2">Opcion2</option>
+              </select>
+            </div>
+          </div>
+
+          <!--Contraseña-->
+          <div class="form-group row my-3">
+            <label for="contraseña" class="col-sm-4 col-form-label"
+              >Contraseña</label
+            >
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="contraseña" />
+            </div>
+          </div>
+
+          <!--Repetir contraseña-->
+          <div class="form-group row my-3">
+            <label for="contraseñaR" class="col-sm-6 col-form-label"
+              >Repetir contraseña</label
+            >
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="contraseñaR" placeholder="Repita contraseña" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
