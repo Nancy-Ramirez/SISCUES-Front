@@ -183,13 +183,14 @@ td {
 }
 
 .crearEstudiante h4 {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .crearEstudiante .card {
+  margin: 10px;
   background-color: rgba(142,191,36, 0.3) ;
-  border-style:dashed;
 }
 
 /*!-------------Responsive---------------*/
